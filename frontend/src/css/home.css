@@ -1,0 +1,29 @@
+.cardMain {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .cardMain .cardHeading {
+    font-family: cursive;
+    font-size: 24px;
+    color: purple;
+    text-transform: uppercase;
+  }
+  .cardMain .cardWrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: grey;
+  }
+  
+  .cardMain .cardWrapper #img {
+    height: 300px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
